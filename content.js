@@ -1,4 +1,4 @@
-var images = document.getElementsByTagName('img');
-for (var i = 0, l = images.length; i < l; i++) {
-  images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
-}
+debugger;
+var list=$('.d-table.col-12.width-full.py-4.border-bottom.border-gray-light > .pr-3 > .mb-1 ');
+
+list.append('<span> [Follows You]</span>');
